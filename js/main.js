@@ -10,6 +10,29 @@ var sliderConfig = {
   autoControlsCombine: true
 };
 
+var picasaConfig = {
+
+  // General Settings
+  username: 'schafferlabweb',
+  mode: 'albums',
+  popupPlugin: "colorbox",
+  colorbox_config: {
+    scalePhotos: false
+  },
+
+  // Settings for Album overview
+  albumThumbSize: 160,
+  showAlbumdate: false,
+  sortAlbums: "ASC_DATE",
+
+  // Setting for Photo overview
+  maxResults: 999,
+  thumbSize: 144,
+  thumbCrop: true,
+
+  removeAlbums: ["ProfilePhotos"]
+};
+
 // Takes in a list of people and returns a HTML table
 var makeHTMLTable = function(listOfPeople) {
   var result = "<table class=\"table\">";
@@ -52,8 +75,14 @@ var makeHTMLPage = function(person) {
 }
 
 var processPeoplePage = function() {
-  htmlToAdd = makeHTMLTable(listOfGradStudents);
-  $("#ourgroup").append(htmlToAdd);
+  //htmlToAdd = makeHTMLTable(listOfGradStudents);
+  var listOfAlumni = Papa.parse("alumni.txt", {
+    delimiter: "\t",
+    download: true
+  });
+  console.log(listOfAlumni);
+
+  //$("#ourgroup").append(htmlToAdd);
 };
 
 var loadHTMLPage = function(hashtext) {
@@ -70,6 +99,7 @@ var loadHTMLPage = function(hashtext) {
 };
 
 var processActivePage = function(hashtext) {
+  console.log($(".pwi_album").length);
   $(".webpage").hide();
   $(".nav.navbar-nav li").removeClass('active');
 
@@ -95,13 +125,17 @@ var processActivePage = function(hashtext) {
   }
 }
 
-var allSlidersClosure = function(dfd) {
+// var processActivePage = function(hashtext) {
+//   $("#home, #bio, #interests, #ourgroup, #publications, #meetings").hide();
+// };
+
+var mainClosure = function() {
   var count = 0;
   var numOfSliders = $('.bxslider').length;
   return function() {
     count++;
     console.log(count);
-    if (count == numOfSliders) {
+    if (count == numOfSliders + 1) {
       setTimeout(processActivePage, 0);
     }
   };
@@ -109,32 +143,22 @@ var allSlidersClosure = function(dfd) {
 
 $(document).ready(function(){
 
+  $( "#accordion" ).accordion({ heightStyle: "content", collapsible: true });
+
   processPeoplePage();
 
-  $(".personLink").on('click', function(event) {
-    event.stopPropagation();
-    var hashtext = $(this).attr('href').substring(1);
-    processActivePage(hashtext);
-  });  
+  $(window).hashchange( function() {
+    processActivePage();
+  } );
 
-  var conditionalProcessActivePage = allSlidersClosure();
+  var conditionalProcessActivePage = mainClosure();
+
+  picasaConfig["onAlbumsEnd"] = conditionalProcessActivePage;
+  $("#albums").pwi(picasaConfig);
 
   // Assume that there is at least one slideshow in the entire website
   $('.bxslider').each(function(i, slider) {
     sliders[i] = $(slider).bxSlider({ onSliderLoad: conditionalProcessActivePage });
-  });
-
-  $(".nav.navbar-nav li").click(function() {
-    var hashtext = $(this).attr('id').substring(3);
-    processActivePage(hashtext);
-  });
-
-  $(".navbar-brand").click(function() {
-    processActivePage("home");
-  });
-
-  $("#readmore").click(function() {
-    processActivePage("interests");
   });
 
 });

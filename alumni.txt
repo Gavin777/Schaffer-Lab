@@ -1,0 +1,43 @@
+Name	Former Education	Current Location	Link		
+"Agrawal, Smita, PhD"	"Ph.D. UC Berkeley, 2007"	Univ. of Minnesota			
+"Ashton, Prof. Randolph"	"Ph.D. Rensselaer Polytechnic Institute, 2007"	Univ. of Wisconsin-Madison	http://www.engr.wisc.edu/bme/faculty/ashton_randolph.html		
+"Asuri, Prashanth, Ph.D."	"Ph.D. Rensselaer Polytechnic Institute, 2007"	Santa Clara University			
+"Bergen, Jamie, PhD"	"Univ. of Washington, 2008"	Stanford University			
+"Burnett, John, Ph.D."	"Ph.D. UC Berkeley, 2008"	City of Hope			
+"Conway, Anthony, Ph.D."	"Ph.D. UC Berkeley, 2013"	Sangamo Biosciences 			
+"Dalkara, Deniz, Ph.D."	Ph.D. University of Strasbourg	Institut de la Vision Paris			
+"Dey, Siddharth, Ph.D."	"Ph.D. UC Berkeley, 2012"	"Hubrecht Institute, Netherlands"			
+"Eshghi, Shawdee, Ph.D."	"Ph.D. MIT, 2007"				
+"Foley, Jonathan, PhD"	"Ph.D. UC Berkeley, 2013"	"Data Scientist | Gild, Inc."			
+"Fritz, Ashley, Ph.D."	"Ph.D. UC Berkeley, 2012"				
+"Gip, Phung, Ph.D."	"Ph.D. UC berkeley, 2010"	Stanford School of Medicine	http://postdocs.stanford.edu/profiles/postdocs/researcher/Phung_Gip		
+"Hwang, Bum-Yeol, PhD"	"PhD Seol National University, 2003"	4D Molecular Therapeutics			
+"Ignowski, Jolene, PhD"					
+"Jang, Prof. Jae-Hyung"	"Ph.D. Northwestern Univ,2005"	Yonsei Univ.	http://165.132.10.17/mcel/		
+"Keung, Albert, PhD"	"Ph.D. UC Berkeley, 2012"	Boston University			
+"Klimczak, Ryan, Ph.D."	"Ph.D. UC Berkeley, 2010"	UC Berkeley			
+"Koerber, James T., Ph.D."	"Ph.D. UC Berkeley, 2008"	UC San Francisco			
+"Kotterman, Melissa, PhD"	"Ph.D. UC Berkeley, 2013"	4D Molecular Therapeutics			
+"Kwon, Prof. Inchan"	"Ph.D.CalTech, 2006"	Univ. of Virginia	http://www.faculty.virginia.edu/kwon/index.php		
+"Lai, Karen, Ph.D."	"Ph.D. UC Berkeley, 2003"	Knobbe Martens Olsen & Bear			
+"Lee, Gary, Ph.D."	"Ph.D. UC Berkeley, 2004"	Sangamo Biosciences 			
+"Leonard, Prof. Josh"	"Ph.D. UC Berkeley, 2006"	Northwestern Univ.	http://www.chem-biol-eng.northwestern.edu/people/faculty/Leonard.html		
+"Lim, Prof. Kwang-il"	"Ph.D. Univ. of Wisconsin, 2005"	"Department of Medical and Pharmaceutical Sciences, Sookmyung Women's University, Seoul, South Korea"			
+"Little,Lauren, Ph.D."	"Ph.D. UC Berkeley, 2010"	Hoffman La Roche			
+"Maheshri, Prof. Narendra"	"Ph.D. UC Berkeley, 2004"	MIT	http://web.mit.edu/~narendra/www/people.html		
+"Miller-Jensen, Prof. Kathryn"	"Ph.D. MIT, 2006"	Yale Univ.	http://www.seas.yale.edu/faculty-detail.php?id=138		
+"Na, Yun-Suk, MS"	"MS UC Berkeley, 2014"				
+"O'Neill, Analeah, Ph.D."	"Ph.D. UC Berkeley, 2005"	O'Neill Educational Consulting	http://oneilleducationalconsulting.com/Home_Page.html		
+"Pangarkar, Chinmay, Ph.D."	"Ph.D. UC Santa Barbara, 2007"	"Theranos, Inc."			
+"Peltier, Joseph, Ph.D."	"Ph.D. UC Berkeley, 2010"	Biomarin			
+"Quock, Laura, M.S."	"M.S. UC Berkeley, 2011"	Abbott			
+"Robertson, Matthew, Ph.D."	"Ph.D. UC Berkeley, 2007"	Univ. of Minnesota			
+"Saha, Krishanu, Ph.D."	"Ph.D. UC Berkeley, 2007"	MIT/Whitehead Inst.	http://www.krishanusaha.com/Krishanu_Saha/Welcome.html		
+"Shah, Priya, Ph.D."	"Ph.D. UC Berkeley, 2011"	UC San Francisco	"Weinstein, John"	"Ph.D. UC Berkeley, 2013"	UC San Francisco
+"Stone, Daniel, Ph.D."	"Ph.D. Univ of Manchester,2002"	"Fred Hutchinson Cancer Research Center, Seattle"			
+"Varedi, Marjan, Ph.D."	"Ph.D. Univ. of Michigan-Ann Arbor, 2011"	Advent Engineering Services			
+"Weinberger, Prof. Leor"	"Ph.D. UC Berkeley, 2003"	UCSD	http://weinbergerlab.ucsd.edu/		
+"Willerth, Prof. Stephanie"	"Ph.D. Washington Univ., 2008"	Univ. of Victoria	http://www.engr.uvic.ca/~willerth/SMWLab/WebContent/people.shtml		
+"Yousef, Hanadie, PhD"	"PhD UC Berkeley, 2014"	Stanford			
+"Yu, Julie, Ph.D."	"Ph.D. UC Berkeley, 2006"	SF Exploratorium Museum			
+"Yue, Prof. FengMing"	"Ph.D. Shinshu Univ, 2006"	Shinshu Univ. Medical School			

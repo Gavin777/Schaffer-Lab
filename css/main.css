@@ -74,16 +74,13 @@ img.center {
   display: block;
 }
 
-
-
 p.center {
     text-align: center;
 }
 
-
-
-
-
+#accordion a {
+    color: #428bca;
+}
 
 
 /* ==========================================================================
