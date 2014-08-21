@@ -55,6 +55,16 @@ var makeHTMLTable = function(listOfObjects, isAlumni) {
   return result;
 };
 
+var applyColorBox = function(className) {
+  $('.' + className).colorbox( {
+    rel: className,
+    maxWidth: "900px",
+    preloading: false,
+    closeButton: false,    
+    current: ""
+  });
+};
+
 // Takes in a person and returns a HTML cell
 var makeHTMLCell = function (person) {
   var result = "<td width=\"33%\">";
@@ -240,5 +250,8 @@ $(document).ready(function(){
     closeButton: false,    
     current: ""
   });
+
+  applyColorBox('group1');
+  applyColorBox('group2');
 
 });
