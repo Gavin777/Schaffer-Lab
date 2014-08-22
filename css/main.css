@@ -63,6 +63,7 @@ textarea {
 
 img.regular {
     float: left;
+    padding-top: 5px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -89,6 +90,17 @@ p.center {
 
 .row {
     width: 100%;
+}
+
+h1 {
+    color: #CC6B47;
+}
+
+h3 {
+    color: white;
+    /*background: #4471CA; */
+    background: #CC6B47;
+    padding: 5px 0px 3px 5px;
 }
 
 /* ==========================================================================
@@ -166,17 +178,6 @@ p.center {
 
 .clearfix {
     *zoom: 1;
-}
-
-h1 {
-    color: #CC6B47;
-}
-
-h3 {
-    color: white;
-    /*background: #4471CA; */
-    background: #428bca;
-    padding: 5px 0px 3px 5px;
 }
 
 /* ==========================================================================
