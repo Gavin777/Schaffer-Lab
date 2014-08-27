@@ -97,10 +97,24 @@ h1 {
 }
 
 h3 {
+    text-align: center;
     color: white;
-    /*background: #4471CA; */
-    background: #CC6B47;
-    padding: 5px 0px 3px 5px;
+    padding: 5px 0px 3px 0px;    
+    background-image: linear-gradient(to bottom,#ebebeb 0,#4471CA 100%);
+    /*background: #CC6B47;*/
+}
+
+a {
+    color: #CC6B47;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom,#ebebeb 0,#4471CA 100%);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 /* ==========================================================================

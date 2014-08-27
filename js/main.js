@@ -253,5 +253,6 @@ $(document).ready(function(){
 
   applyColorBox('group1');
   applyColorBox('group2');
+  applyColorBox('group3');  
 
 });
