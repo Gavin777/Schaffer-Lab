@@ -24,7 +24,7 @@ var picasaConfig = {
   // Settings for Album overview
   albumThumbSize: 160,
   showAlbumdate: false,
-  sortAlbums: "ASC_DATE",
+  sortAlbums: "DESC_DATE",
 
   // Setting for Photo overview
   maxResults: 999,
