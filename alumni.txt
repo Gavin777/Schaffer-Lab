@@ -1,13 +1,13 @@
 Name	Former Education	Current Location	Link
 "Agrawal, Smita, PhD"	"Ph.D. UC Berkeley, 2007"	Univ. of Minnesota	
 "Ashton, Prof. Randolph"	"Ph.D. Rensselaer Polytechnic Institute, 2007"	Univ. of Wisconsin-Madison	http://www.engr.wisc.edu/bme/faculty/ashton_randolph.html
-"Asuri, Prashanth, Ph.D."	"Ph.D. Rensselaer Polytechnic Institute, 2007"	Santa Clara University	
+"Asuri, Prashanth, Ph.D."	"Ph.D. Rensselaer Polytechnic Institute, 2007"	Santa Clara University	http://www.scu.edu/engineering/bioengineering/Asuri.cfm
 "Bergen, Jamie, PhD"	"Univ. of Washington, 2008"	Stanford University	
 "Bowman, Angela"	"Ph.D., Stanford University"	Executive Director of the Washington University (St. Louis)	
 "Bugaj, Lukasz"	Postdoc	UCSF	
-"Burnett, John, Ph.D."	"Ph.D. UC Berkeley, 2008"	City of Hope	
+"Burnett, John, Ph.D."	"Ph.D. UC Berkeley, 2008"	City of Hope	http://www.cityofhope.org/people/burnett-john
 "Conway, Anthony, Ph.D."	"Ph.D. UC Berkeley, 2013"	Sangamo Biosciences 	
-"Dalkara, Deniz, Ph.D."	Ph.D. University of Strasbourg	Institut de la Vision Paris	
+"Dalkara, Deniz, Ph.D."	Ph.D. University of Strasbourg	Institut de la Vision Paris	http://www.institut-vision.org/index.php?option=com_content&id=326:equipe-de-deniz-dalkara&Itemid=15&lang=en
 "Dey, Siddharth, Ph.D."	"Ph.D. UC Berkeley, 2012"	"Hubrecht Institute, Netherlands"	
 "Eshghi, Shawdee, Ph.D."	"Ph.D. MIT, 2007"		
 "Foley, Jonathan, PhD"	"Ph.D. UC Berkeley, 2013"	"Data Scientist | Gild, Inc."	http://postdocs.stanford.edu/profiles/postdocs/researcher/Phung_Gip
@@ -18,7 +18,7 @@ Name	Former Education	Current Location	Link
 "Jang, Prof. Jae-Hyung"	"Ph.D. Northwestern Univ,2005"	Yonsei Univ.	
 "Keung, Albert, PhD"	"Ph.D. UC Berkeley, 2012"	Boston University	
 "Klimczak, Ryan, Ph.D."	"Ph.D. UC Berkeley, 2010"	UC Berkeley	
-"Koerber, James T., Ph.D."	"Ph.D. UC Berkeley, 2008"	UC San Francisco	http://www.faculty.virginia.edu/kwon/index.php
+"Koerber, James T., Ph.D."	"Ph.D. UC Berkeley, 2008"	Scientist at Genentech	
 "Kotterman, Melissa, PhD"	"Ph.D. UC Berkeley, 2013"	4D Molecular Therapeutics	
 "Kwon, Prof. Inchan"	"Ph.D.CalTech, 2006"	Univ. of Virginia	
 "Lai, Karen, Ph.D."	"Ph.D. UC Berkeley, 2003"	Knobbe Martens Olsen & Bear	http://www.chem-biol-eng.northwestern.edu/people/faculty/Leonard.html
@@ -31,9 +31,9 @@ Name	Former Education	Current Location	Link
 "Miller-Jensen, Prof. Kathryn"	"Ph.D. MIT, 2006"	Yale Univ.	
 "Na, Yun-Suk, MS"	"MS UC Berkeley, 2014"		
 "O'Neill, Analeah, Ph.D."	"Ph.D. UC Berkeley, 2005"	O'Neill Educational Consulting	
-"Pangarkar, Chinmay, Ph.D."	"Ph.D. UC Santa Barbara, 2007"	"Theranos, Inc."	
+"Pangarkar, Chinmay, Ph.D."	"Ph.D. UC Santa Barbara, 2007"	"Theranos, Inc."	http://www.mendeley.com/profiles/chinmay-pangarkar/
 "Peltier, Joseph, Ph.D."	"Ph.D. UC Berkeley, 2010"	Biomarin	http://www.krishanusaha.com/Krishanu_Saha/Welcome.html
-"Quock, Laura, M.S."	"M.S. UC Berkeley, 2011"	Abbott	
+"Quock, Laura, M.S."	"M.S. UC Berkeley, 2011"	Genentech	
 "Rammensee, Sebastian"	Ph.D. Technical University of Munich	"research engineer, optical imaging equipment development company, United Kingdom."	
 "Robertson, Matthew, Ph.D."	"Ph.D. UC Berkeley, 2007"	Univ. of Minnesota	
 "Saha, Krishanu, Ph.D."	"Ph.D. UC Berkeley, 2007"	MIT/Whitehead Inst.	http://weinbergerlab.ucsd.edu/

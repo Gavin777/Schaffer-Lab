@@ -414,7 +414,7 @@ var listOfAlumni = [
     "Name":"Asuri, Prashanth, Ph.D.",
     "Former Education":"Ph.D. Rensselaer Polytechnic Institute, 2007",
     "Current Location":"Santa Clara University",
-    "Link":""
+    "Link":"http://www.scu.edu/engineering/bioengineering/Asuri.cfm"
   },
   {
     "Name":"Bergen, Jamie, PhD",
@@ -438,7 +438,7 @@ var listOfAlumni = [
     "Name":"Burnett, John, Ph.D.",
     "Former Education":"Ph.D. UC Berkeley, 2008",
     "Current Location":"City of Hope",
-    "Link":""
+    "Link":"http://www.cityofhope.org/people/burnett-john"
   },
   {
     "Name":"Conway, Anthony, Ph.D.",
@@ -450,7 +450,7 @@ var listOfAlumni = [
     "Name":"Dalkara, Deniz, Ph.D.",
     "Former Education":"Ph.D. University of Strasbourg",
     "Current Location":"Institut de la Vision Paris",
-    "Link":""
+    "Link":"http://www.institut-vision.org/index.php?option=com_content&id=326:equipe-de-deniz-dalkara&Itemid=15&lang=en"
   },
   {
     "Name":"Dey, Siddharth, Ph.D.",
@@ -515,8 +515,8 @@ var listOfAlumni = [
   {
     "Name":"Koerber, James T., Ph.D.",
     "Former Education":"Ph.D. UC Berkeley, 2008",
-    "Current Location":"UC San Francisco",
-    "Link":"http://www.faculty.virginia.edu/kwon/index.php"
+    "Current Location":"Scientist at Genentech",
+    "Link":""
   },
   {
     "Name":"Kotterman, Melissa, PhD",
@@ -594,7 +594,7 @@ var listOfAlumni = [
     "Name":"Pangarkar, Chinmay, Ph.D.",
     "Former Education":"Ph.D. UC Santa Barbara, 2007",
     "Current Location":"Theranos, Inc.",
-    "Link":""
+    "Link":"http://www.mendeley.com/profiles/chinmay-pangarkar/"
   },
   {
     "Name":"Peltier, Joseph, Ph.D.",
@@ -605,7 +605,7 @@ var listOfAlumni = [
   {
     "Name":"Quock, Laura, M.S.",
     "Former Education":"M.S. UC Berkeley, 2011",
-    "Current Location":"Abbott",
+    "Current Location":"Genentech",
     "Link":""
   },
   {
