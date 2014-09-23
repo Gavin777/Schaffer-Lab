@@ -52,12 +52,12 @@ var listOfPeople = [
     "lastName":"Chen",
     "Occupation":"Graduate Student",
     "Department":"Bioengineering",
-    "Former Education":"",
-    "Project title":"",
+    "Former Education":"Massachusetts Institute of Technology",
+    "Project title":"Adeno-associated viruses for gene therapy applications",
     "Project description":"",
     "Project group":"",
     "Nickname":"",
-    "Img Type":""
+    "Img Type":"jpg"
   },
   {
     "firstName":"SiSi",

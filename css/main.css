@@ -115,6 +115,21 @@ a {
 .navbar-default .navbar-nav>li>a {
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-fixed-top {
+    z-index: 10000;
 }
 
 /* ==========================================================================
