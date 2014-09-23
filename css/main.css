@@ -100,7 +100,7 @@ h3 {
     text-align: center;
     color: white;
     padding: 5px 0px 3px 0px;    
-    background-image: linear-gradient(to bottom,#ebebeb 0,#4471CA 100%);
+    background-image: linear-gradient(to bottom,#4471CA 0,#383838 100%);
     /*background: #CC6B47;*/
 }
 
@@ -109,7 +109,7 @@ a {
 }
 
 .navbar-default {
-    background-image: linear-gradient(to bottom,#ebebeb 0,#4471CA 100%);
+    background-image: linear-gradient(to bottom,#4471CA 0,#383838 100%);
 }
 
 .navbar-default .navbar-nav>li>a {
