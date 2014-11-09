@@ -113,7 +113,10 @@ var makeHTMLPage = function(person) {
             : "";
   result += (person["Project group"])
             ? "<br /><strong>Project Group: </strong>" + person["Project group"]
-            : "";                
+            : "";
+  result += (person["Project supervisor"])
+            ? "<br /><strong>Project Supervisor: </strong>" + "<a href=\"#" + person["Project supervisor"].replace(/\s+/g, '_') + "\">" + person["Project supervisor"] + "</a>"
+            : "";
   result += (person["Project title"])
             ? "<br /><strong>Project Title: </strong>" + person["Project title"]
             : "";
@@ -124,6 +127,8 @@ var makeHTMLPage = function(person) {
   return result;
 }
 
+// Note: any person with an occupation that is not listed below will have a user page generated
+// but may or may not be listed on the People page
 var processPeoplePage = function() {
   var listOfGradStudents = [],
       listOfScientists = [],

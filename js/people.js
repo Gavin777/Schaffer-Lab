@@ -8,20 +8,9 @@ var listOfPeople = [
     "Project title":"Design of materials for cell and gene delivery to the central nervous system",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
-  },
-  {
-    "firstName":"Delphine",
-    "lastName":"Blondel",
-    "Occupation":"Visiting Scholar",
-    "Department":"",
-    "Former Education":"",
-    "Project title":"",
-    "Project description":"",
-    "Project group":"",
-    "Nickname":"",
-    "Img Type":""
   },
   {
     "firstName":"Andrew",
@@ -32,6 +21,7 @@ var listOfPeople = [
     "Project title":"Cell patterning on engineered substrates to investigate cellular interactions of the neural stem cell niche.",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"png"
   },
@@ -44,6 +34,7 @@ var listOfPeople = [
     "Project title":"AAV-mediated retinal gene therapy ",
     "Project description":"Recently we have developed, using rational mutagenesis and directed evolution, novel AAV varients with enhanced abilities to transduce multiple retinal cell types. My projects focus on expanding on this work to create AAV vectors with expanded transduction profiles and using these vectors to ameliorate inherited forms of retinal degeneration.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -56,18 +47,20 @@ var listOfPeople = [
     "Project title":"Adeno-associated viruses for gene therapy applications",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
   {
     "firstName":"SiSi",
     "lastName":"Chen",
-    "Occupation":"Postdoc",
+    "Occupation":"Postdoc/Alumni",
     "Department":"Bioengineering",
     "Former Education":"BioEngineering, Ph.D UC Berkeley; Electrical Engineering, B.S. MIT",
     "Project title":"Surface Patterning to Investigate Cell-Cell Interactions that Regulate Neural Stem Cell Fate Decisions",
     "Project description":"Neural stem cells in the subgranular zone of the mammalian hippocampus are found in a complex cellular niche comprised of astrocytes, granule neurons, and endothelial cell-lined blood vessels. However, this niche is difficult to visualize and track in vivo. My aim is to combine high throughput imaging and surface micropatterning to recreate small-scale cellular niches to understand how neighboring cells influence NSC fate at the single-cell level.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"png"
   },
@@ -80,6 +73,7 @@ var listOfPeople = [
     "Project title":"",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":""
   },
@@ -92,6 +86,7 @@ var listOfPeople = [
     "Project title":"Optogenetic tools for the precise control of cellular signaling",
     "Project description":"Cells integrate and transmit information through cellular signaling networks, where proteins are activated and inactivated in specific sequences to yield cell fate outcomes. The complexity of these networks is compounded by their dynamic nature in both space and time. Unfortunately, current technologies are insufficient to interrogate and reproduce protein signals with the spatiotemporal resolution at which they occur in nature, thus limiting our ability to understand them. We aim to engineer novel protein systems to enable photoactivation of various signaling proteins. Successful development of such light-inducible tools will provide unprecedented fine control over protein signal duration, intensity and location within living cells and tissues. Varying these parameters and observing the corresponding biological outputs will help illuminate how signalling dynamics determine cell fate. Identifying these input-output relationships is of great interest to the field of stem cell engineering, where properly manipulating cellular environments and signals will allow the efficient generation of therapeutically relevant target cell types.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -104,6 +99,7 @@ var listOfPeople = [
     "Project title":"Nanopatterned chemistry and topography using block copolymers and photolithography for stem cell differentiation ",
     "Project description":"My project focuses on determining how a surface's topography can effect neural stem cell differentiation. Both length scale and organization of chemical and topographical pattern will be analyzed with self-assembling block copolymers and surfaces made from photolithography.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -116,6 +112,7 @@ var listOfPeople = [
     "Project title":"Gene therapy for dominant genetic retinal diseases",
     "Project description":"Dominant genetic diseases provide a challenge for gene therapy approaches. I work on adeno-associated viral vector-based methods for treating such diseases in the retina.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -128,8 +125,22 @@ var listOfPeople = [
     "Project title":"Directed evolution and optimization of AAV delivery systems",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"gif"
+  },
+  {
+    "firstName":"Kevin",
+    "lastName":"Huang",
+    "Occupation":"Undergraduate",
+    "Department":"",
+    "Former Education":"",
+    "Project title":"",
+    "Project description":"",
+    "Project group":"",
+    "Project supervisor":"",
+    "Nickname":"",
+    "Img Type":"jpg"
   },
   {
     "firstName":"Yongsoo",
@@ -140,6 +151,7 @@ var listOfPeople = [
     "Project title":"",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"Peter",
     "Img Type":""
   },
@@ -152,8 +164,9 @@ var listOfPeople = [
     "Project title":"Mechanotransductive Response of Neural Progenitor Cells",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
-    "Img Type":""
+    "Img Type":"jpg"
   },
   {
     "firstName":"Philip",
@@ -164,8 +177,9 @@ var listOfPeople = [
     "Project title":"",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
-    "Img Type":""
+    "Img Type":"jpg"
   },
   {
     "firstName":"Mervi",
@@ -176,6 +190,7 @@ var listOfPeople = [
     "Project title":"Improving AAV-mediated gene therapy for inherited retinal degenerations",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -188,6 +203,7 @@ var listOfPeople = [
     "Project title":"Virus-host interactions in HIV infections",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -195,13 +211,14 @@ var listOfPeople = [
     "firstName":"Don",
     "lastName":"Mai",
     "Occupation":"Undergraduate",
-    "Department":"",
+    "Department":"Chemical and Biomolecular Engineering, Computer Science",
     "Former Education":"",
-    "Project title":"",
-    "Project description":"",
-    "Project group":"",
+    "Project title":"Construction of a computer simulation of HIV infection",
+    "Project description":"Biological systems are large, complex, and multi-faceted, and computational simulations serve as a way to understand some of the intricacies of the systems. We are constructing a large-scale model of the molecular interactions between Human Immunodeficiency Virus (HIV) and a human T cell. This project will enable a better understanding of HIV infection, and may point to new therapeutic targets.",
+    "Project group":"HIV",
+    "Project supervisor":"Jayodita Sanghvi",
     "Nickname":"",
-    "Img Type":""
+    "Img Type":"jpg"
   },
   {
     "firstName":"Sean",
@@ -212,6 +229,7 @@ var listOfPeople = [
     "Project title":"Developing High Throughput (Stem) Cell Arrays for Studying Cell Properties and Behavior",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -224,6 +242,7 @@ var listOfPeople = [
     "Project title":"Developing a Platform for High Throughput Screening of Pluripotent Stem Cells",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"png"
   },
@@ -236,6 +255,7 @@ var listOfPeople = [
     "Project title":"Engineering Adeno-Associated Virus for Gene Therapy in the Central Nervous System",
     "Project description":"Gene therapy has strong potential for treating a variety of genetic disorders of the brain and spinal cord. Improved gene delivery vehicles are needed to overcome the unique challenges of safely administering therapeutic genes in the central nervous system. My aim is to develop novel adeno-associated virus variants with unique targeting capabilities relevant to disorders of the brain and spinal cord.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -248,6 +268,7 @@ var listOfPeople = [
     "Project title":"Developing a high throughput platform for studying stem cell properties and behavior",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -260,6 +281,7 @@ var listOfPeople = [
     "Project title":"Engineering Synthetic Peptide Surfaces for hESC renewal and differentiation ",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -272,8 +294,9 @@ var listOfPeople = [
     "Project title":"",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
-    "Img Type":""
+    "Img Type":"jpg"
   },
   {
     "firstName":"Goncaloo",
@@ -284,6 +307,7 @@ var listOfPeople = [
     "Project title":"Cell separation and enrichment of target-cells differentiated from human pluripotent stem cells (hPSCs) will be essential for the application of these promising cellular products in drug screening tests, disease modeling studies and tissue engineering treatments. The inability to differentiate all stem cells cultured into the desired cell type, with 100% efficiency, will demand purification stages along hPSC commitment protocols. However, the development of a wide-ranging method, or device, capable of concurrently achieve cell separations with high throughput, high target-cell recovery, high final purity and high viability remains difficult. Focusing on scalability, the central objective of this project is to develop a tag-free enrichment platform for hPSC-derived neural precursors. The successful implementation of such strategy may contribute to overcome the bottleneck of having potentially dangerous cell heterogeneity after neuronal differentiation.",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -296,18 +320,20 @@ var listOfPeople = [
     "Project title":"Development of high throughput screening systems with high content image-based analysis to elucidate new mechanisms for micro-environment regulation of stem cell fate decisions",
     "Project description":"My project focuses on the development of multi-chromatic fluorescent sensors and reporter systems compatible with high throughput 3D cellular printing to track stem cell fate decisions in response to micro-environments.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
   {
     "firstName":"Jayodita",
     "lastName":"Sanghvi",
-    "Occupation":"Postdoc",
+    "Occupation":"Postdoc/Alumni",
     "Department":"QB3",
     "Former Education":"MIT, BS Biology (2007); Stanford University, PhD Bioengineering (2013)",
-    "Project title":"",
-    "Project description":"",
+    "Project title":"Construction of a computer simulation of HIV infection",
+    "Project description":"Biological systems are large, complex, and multi-faceted, and computational simulations serve as a way to understand some of the intricacies of the systems. We are constructing a large-scale model of the molecular interactions between Human Immunodeficiency Virus (HIV) and a human T cell. This project will enable a better understanding of HIV infection, and may point to new therapeutic targets.",
     "Project group":"HIV",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -320,6 +346,7 @@ var listOfPeople = [
     "Project title":"Engineering of a lentiviral vector with directed integration properties",
     "Project description":"Lentiviral vectors represent very important tools in both basic research and in gene therapy. Several characteristics make them desirable, such as their ability to infect both dividing and non-dividing cells and to elicit a long-term expression of the delivered gene via its integration into the host cell's genome. However, this insertion, which in lentiviruses occurs in a semi-random way, poses a risk of insertional mutagenesis, which could represent a health hazard when utilizing the lentiviruses in gene therapy. One way to circumvent this feature and to improve the vector's safety is to direct the integration events such that they are targeted to a specific site within the host cell's genome that would be safe for integration. This project aims to engineer a lentiviral vector with directed integration properties. The approach taken involves the insertion of DNA binding domains, which specifically target DNA sequences suitable for insertions, in permissible sites within the viral proteins.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -332,6 +359,7 @@ var listOfPeople = [
     "Project title":"Engineering Strategies for Dissecting the Neural Stem Cell Niche",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
@@ -344,6 +372,7 @@ var listOfPeople = [
     "Project title":"Molecular mechanisms of cell-cell signaling in neural stem cells",
     "Project description":"I am interested in studying and controlling the molecular mechanisms of cell-cell signaling in neural stem cells (NSCs). In collaboration with the Groves Lab, I am using a supported lipid bilayer system to mimic cell-cell interactions in the NSC niche, specifically Eph/ ephrin induced NSC differentiation. I am also exploring molecular and biomaterial based approaches to recapitulate cell contact dependent cues. ",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"png"
   },
@@ -356,20 +385,9 @@ var listOfPeople = [
     "Project title":"Engineering adeno-associated viruses for gene delivery",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"png"
-  },
-  {
-    "firstName":"Shawn",
-    "lastName":"Sun",
-    "Occupation":"Undergraduate",
-    "Department":"",
-    "Former Education":"",
-    "Project title":"",
-    "Project description":"",
-    "Project group":"",
-    "Nickname":"",
-    "Img Type":""
   },
   {
     "firstName":"Tandis",
@@ -380,11 +398,12 @@ var listOfPeople = [
     "Project title":"Designing biomimetic systems for directed dopaminergic differentiation of human embryonic stem cells",
     "Project description":"Rapid progress has been attained in the development of differentiation paradigms to drive different type of neurons from human embryonic stem cells (hESCs), with the fundamental objective of using these cells for replacement and repair of damaged neuronal circuits in the central nervous system. Of particular interest are midbrain dopaminergic neurons because degeneration or loss of function of these neurons is associated with Parkinson's disease. Many protocols used to direct hESCs to develop into dopaminergic neurons are highly inefficient, or use co-culture systems of hESCs with cells of animal origin which prevents any downstream clinical application due to possible transfer of animal cells and pathogens. Also, most of these strategies employ classical two-dimensional culturing conditions for neuronal and dopaminergic induction which have limited relevance to the native three-dimensional conditions. Other major challenges that must be overcome to realize the therapeutic potential of hESC-derived dopaminergic neurons are poor survival and integration upon transplantation. To overcome these obstacles, we aim to design defined three-dimensional biological systems functionalized with bioactive components including recently identified midbrain patterning molecules and neurotrophic factors to support efficient dopaminergic differentiation of hESCs ex vivo. These cellular scaffolds are also designed to act as a temporary extracellular matrix after transplantation to enhance the survival and functional integration in vivo to meet the requirements for cell-based strategies for brain repair.",
     "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":"jpg"
   },
   {
-    "firstName":"Christina",
+    "firstName":"Chrystina",
     "lastName":"Yu",
     "Occupation":"Undergraduate",
     "Department":"",
@@ -392,6 +411,20 @@ var listOfPeople = [
     "Project title":"",
     "Project description":"",
     "Project group":"",
+    "Project supervisor":"",
+    "Nickname":"",
+    "Img Type":"jpg"
+  },
+  {
+    "firstName":"Michael",
+    "lastName":"Yu",
+    "Occupation":"Undergraduate",
+    "Department":"",
+    "Former Education":"",
+    "Project title":"",
+    "Project description":"",
+    "Project group":"",
+    "Project supervisor":"",
     "Nickname":"",
     "Img Type":""
   }
@@ -399,9 +432,9 @@ var listOfPeople = [
 
 var listOfAlumni = [
   {
-    "Name":"Agrawal, Smita, PhD",
+    "Name":"Agrawal, Smita",
     "Former Education":"Ph.D. UC Berkeley, 2007",
-    "Current Location":"Univ. of Minnesota",
+    "Current Location":"Genentech",
     "Link":""
   },
   {
@@ -411,15 +444,15 @@ var listOfAlumni = [
     "Link":"http://www.engr.wisc.edu/bme/faculty/ashton_randolph.html"
   },
   {
-    "Name":"Asuri, Prashanth, Ph.D.",
+    "Name":"Asuri, Prashanth",
     "Former Education":"Ph.D. Rensselaer Polytechnic Institute, 2007",
     "Current Location":"Santa Clara University",
     "Link":"http://www.scu.edu/engineering/bioengineering/Asuri.cfm"
   },
   {
-    "Name":"Bergen, Jamie, PhD",
+    "Name":"Bergen, Jamie",
     "Former Education":"Univ. of Washington, 2008",
-    "Current Location":"Stanford University",
+    "Current Location":"Freelance",
     "Link":""
   },
   {
@@ -430,96 +463,102 @@ var listOfAlumni = [
   },
   {
     "Name":"Bugaj, Lukasz",
-    "Former Education":"Postdoc",
+    "Former Education":"Ph.D. UC Berkeley, 2014",
     "Current Location":"UCSF",
     "Link":""
   },
   {
-    "Name":"Burnett, John, Ph.D.",
+    "Name":"Burnett, John",
     "Former Education":"Ph.D. UC Berkeley, 2008",
     "Current Location":"City of Hope",
     "Link":"http://www.cityofhope.org/people/burnett-john"
   },
   {
-    "Name":"Conway, Anthony, Ph.D.",
+    "Name":"Chen, SiSi",
+    "Former Education":"Ph.D. UC Berkeley, 2013",
+    "Current Location":"",
+    "Link":"#SiSi_Chen"
+  },
+  {
+    "Name":"Conway, Anthony",
     "Former Education":"Ph.D. UC Berkeley, 2013",
     "Current Location":"Sangamo Biosciences ",
     "Link":""
   },
   {
-    "Name":"Dalkara, Deniz, Ph.D.",
+    "Name":"Dalkara, Deniz",
     "Former Education":"Ph.D. University of Strasbourg",
     "Current Location":"Institut de la Vision Paris",
     "Link":"http://www.institut-vision.org/index.php?option=com_content&id=326:equipe-de-deniz-dalkara&Itemid=15&lang=en"
   },
   {
-    "Name":"Dey, Siddharth, Ph.D.",
+    "Name":"Dey, Siddharth",
     "Former Education":"Ph.D. UC Berkeley, 2012",
     "Current Location":"Hubrecht Institute, Netherlands",
     "Link":""
   },
   {
-    "Name":"Eshghi, Shawdee, Ph.D.",
+    "Name":"Eshghi, Shawdee",
     "Former Education":"Ph.D. MIT, 2007",
-    "Current Location":"",
+    "Current Location":"Silver Creek Pharmaceuticals",
     "Link":""
   },
   {
-    "Name":"Foley, Jonathan, PhD",
+    "Name":"Foley, Jonathan",
     "Former Education":"Ph.D. UC Berkeley, 2013",
     "Current Location":"Data Scientist | Gild, Inc.",
-    "Link":"http://postdocs.stanford.edu/profiles/postdocs/researcher/Phung_Gip"
+    "Link":""
   },
   {
-    "Name":"Fritz, Ashley, Ph.D.",
+    "Name":"Fritz, Ashley",
     "Former Education":"Ph.D. UC Berkeley, 2012",
     "Current Location":"",
     "Link":""
   },
   {
-    "Name":"Gip, Phung, Ph.D.",
+    "Name":"Gip, Phung",
     "Former Education":"Ph.D. UC berkeley, 2010",
     "Current Location":"Stanford School of Medicine",
+    "Link":"http://postdocs.stanford.edu/profiles/postdocs/researcher/Phung_Gip"
+  },
+  {
+    "Name":"Hwang, Bum-Yeol",
+    "Former Education":"PhD Seol National University, 2003",
+    "Current Location":"4D Molecular Therapeutics",
     "Link":""
   },
   {
-    "Name":"Hwang, Bum-Yeol, PhD",
-    "Former Education":"PhD Seol National University, 2003",
-    "Current Location":"4D Molecular Therapeutics",
-    "Link":"http://165.132.10.17/mcel/"
-  },
-  {
-    "Name":"Ignowski, Jolene, PhD",
-    "Former Education":"",
-    "Current Location":"",
+    "Name":"Ignowski, Jolene",
+    "Former Education":"Ph.D. UC Berkeley, 2005",
+    "Current Location":"Bayer Pharmaceuticals",
     "Link":""
   },
   {
     "Name":"Jang, Prof. Jae-Hyung",
     "Former Education":"Ph.D. Northwestern Univ,2005",
     "Current Location":"Yonsei Univ.",
-    "Link":""
+    "Link":"http://165.132.10.17/mcel/"
   },
   {
-    "Name":"Keung, Albert, PhD",
+    "Name":"Keung, Albert",
     "Former Education":"Ph.D. UC Berkeley, 2012",
     "Current Location":"Boston University",
     "Link":""
   },
   {
-    "Name":"Klimczak, Ryan, Ph.D.",
+    "Name":"Klimczak, Ryan",
     "Former Education":"Ph.D. UC Berkeley, 2010",
     "Current Location":"UC Berkeley",
     "Link":""
   },
   {
-    "Name":"Koerber, James T., Ph.D.",
+    "Name":"Koerber, James T.",
     "Former Education":"Ph.D. UC Berkeley, 2008",
     "Current Location":"Scientist at Genentech",
     "Link":""
   },
   {
-    "Name":"Kotterman, Melissa, PhD",
+    "Name":"Kotterman, Melissa",
     "Former Education":"Ph.D. UC Berkeley, 2013",
     "Current Location":"4D Molecular Therapeutics",
     "Link":""
@@ -527,17 +566,17 @@ var listOfAlumni = [
   {
     "Name":"Kwon, Prof. Inchan",
     "Former Education":"Ph.D.CalTech, 2006",
-    "Current Location":"Univ. of Virginia",
+    "Current Location":"Gwangju Institute of Science and Technology, South Korea",
     "Link":""
   },
   {
-    "Name":"Lai, Karen, Ph.D.",
+    "Name":"Lai, Karen",
     "Former Education":"Ph.D. UC Berkeley, 2003",
     "Current Location":"Knobbe Martens Olsen & Bear",
-    "Link":"http://www.chem-biol-eng.northwestern.edu/people/faculty/Leonard.html"
+    "Link":""
   },
   {
-    "Name":"Lee, Gary, Ph.D.",
+    "Name":"Lee, Gary",
     "Former Education":"Ph.D. UC Berkeley, 2004",
     "Current Location":"Sangamo Biosciences ",
     "Link":""
@@ -552,16 +591,16 @@ var listOfAlumni = [
     "Name":"Leonard, Prof. Josh",
     "Former Education":"Ph.D. UC Berkeley, 2006",
     "Current Location":"Northwestern Univ.",
-    "Link":"http://web.mit.edu/~narendra/www/people.html"
+    "Link":""
   },
   {
     "Name":"Lim, Prof. Kwang-il",
     "Former Education":"Ph.D. Univ. of Wisconsin, 2005",
     "Current Location":"Department of Medical and Pharmaceutical Sciences, Sookmyung Women's University, Seoul, South Korea",
-    "Link":"http://www.seas.yale.edu/faculty-detail.php?id=138"
+    "Link":""
   },
   {
-    "Name":"Little,Lauren, Ph.D.",
+    "Name":"Little,Lauren",
     "Former Education":"Ph.D. UC Berkeley, 2010",
     "Current Location":"Hoffman La Roche",
     "Link":""
@@ -569,41 +608,41 @@ var listOfAlumni = [
   {
     "Name":"Maheshri, Prof. Narendra",
     "Former Education":"Ph.D. UC Berkeley, 2004",
-    "Current Location":"MIT",
-    "Link":"http://oneilleducationalconsulting.com/Home_Page.html"
+    "Current Location":"Scientist at Ginkgo",
+    "Link":"http://web.mit.edu/~narendra/www/people.html"
   },
   {
     "Name":"Miller-Jensen, Prof. Kathryn",
     "Former Education":"Ph.D. MIT, 2006",
     "Current Location":"Yale Univ.",
-    "Link":""
+    "Link":"http://www.seas.yale.edu/faculty-detail.php?id=138"
   },
   {
-    "Name":"Na, Yun-Suk, MS",
+    "Name":"Na, Yun-Suk",
     "Former Education":"MS UC Berkeley, 2014",
     "Current Location":"",
     "Link":""
   },
   {
-    "Name":"O'Neill, Analeah, Ph.D.",
+    "Name":"O'Neill, Analeah",
     "Former Education":"Ph.D. UC Berkeley, 2005",
     "Current Location":"O'Neill Educational Consulting",
     "Link":""
   },
   {
-    "Name":"Pangarkar, Chinmay, Ph.D.",
+    "Name":"Pangarkar, Chinmay",
     "Former Education":"Ph.D. UC Santa Barbara, 2007",
     "Current Location":"Theranos, Inc.",
     "Link":"http://www.mendeley.com/profiles/chinmay-pangarkar/"
   },
   {
-    "Name":"Peltier, Joseph, Ph.D.",
+    "Name":"Peltier, Joseph",
     "Former Education":"Ph.D. UC Berkeley, 2010",
     "Current Location":"Biomarin",
-    "Link":"http://www.krishanusaha.com/Krishanu_Saha/Welcome.html"
+    "Link":""
   },
   {
-    "Name":"Quock, Laura, M.S.",
+    "Name":"Quock, Laura",
     "Former Education":"M.S. UC Berkeley, 2011",
     "Current Location":"Genentech",
     "Link":""
@@ -615,31 +654,37 @@ var listOfAlumni = [
     "Link":""
   },
   {
-    "Name":"Robertson, Matthew, Ph.D.",
+    "Name":"Robertson, Matthew",
     "Former Education":"Ph.D. UC Berkeley, 2007",
     "Current Location":"Univ. of Minnesota",
     "Link":""
   },
   {
-    "Name":"Saha, Krishanu, Ph.D.",
+    "Name":"Saha, Krishanu",
     "Former Education":"Ph.D. UC Berkeley, 2007",
     "Current Location":"MIT/Whitehead Inst.",
-    "Link":"http://weinbergerlab.ucsd.edu/"
+    "Link":"http://www.krishanusaha.com/Krishanu_Saha/Welcome.html"
   },
   {
-    "Name":"Shah, Priya, Ph.D.",
+    "Name":"Sanghvi, Jayodita",
+    "Former Education":"Ph.D. Stanford, 2013",
+    "Current Location":"Data Scientist, Grand Rounds",
+    "Link":"#Jayodita_Sanghvi"
+  },
+  {
+    "Name":"Shah, Priya",
     "Former Education":"Ph.D. UC Berkeley, 2011",
     "Current Location":"UC San Francisco",
     "Link":"http://www.engr.uvic.ca/~willerth/SMWLab/WebContent/people.shtml"
   },
   {
-    "Name":"Stone, Daniel, Ph.D.",
+    "Name":"Stone, Daniel",
     "Former Education":"Ph.D. Univ of Manchester,2002",
     "Current Location":"Fred Hutchinson Cancer Research Center, Seattle",
     "Link":""
   },
   {
-    "Name":"Varedi, Marjan, Ph.D.",
+    "Name":"Varedi, Marjan",
     "Former Education":"Ph.D. Univ. of Michigan-Ann Arbor, 2011",
     "Current Location":"Advent Engineering Services",
     "Link":""
@@ -647,8 +692,8 @@ var listOfAlumni = [
   {
     "Name":"Weinberger, Prof. Leor",
     "Former Education":"Ph.D. UC Berkeley, 2003",
-    "Current Location":"UCSD",
-    "Link":""
+    "Current Location":"UCSF",
+    "Link":"http://weinbergerlab.ucsd.edu/"
   },
   {
     "Name":"Weinstein, John",
@@ -663,13 +708,13 @@ var listOfAlumni = [
     "Link":""
   },
   {
-    "Name":"Yousef, Hanadie, PhD",
+    "Name":"Yousef, Hanadie",
     "Former Education":"PhD UC Berkeley, 2014",
     "Current Location":"Stanford",
     "Link":""
   },
   {
-    "Name":"Yu, Julie, Ph.D.",
+    "Name":"Yu, Julie",
     "Former Education":"Ph.D. UC Berkeley, 2006",
     "Current Location":"SF Exploratorium Museum",
     "Link":""
