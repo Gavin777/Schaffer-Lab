@@ -1,16 +1,5 @@
-var sliders = new Array();
-var dictionaryOfPeople = {};
-var sliderConfig = {
-  minSlides: 3,
-  maxSlides: 3,
-  auto: true,
-  speed: 1000,
-  slideMargin: 10,
-  autoControls: true,
-  slideWidth: 500,
-  autoControlsCombine: true
-};
 
+// Picasa Web Albums plugin configuration
 var picasaConfig = {
 
   // General Settings
@@ -34,7 +23,18 @@ var picasaConfig = {
   removeAlbums: ["Schaffer"]
 };
 
-// Takes in a list of objects and returns a HTML table
+// Colorbox configuration
+var applyColorBox = function(className) {
+  $('.' + className).colorbox( {
+    rel: className,
+    maxWidth: "900px",
+    preloading: false,
+    closeButton: false,    
+    current: ""
+  });
+};
+
+// Takes in a list of objects and returns a HTML table (People page helper)
 var makeHTMLTable = function(listOfObjects, isAlumni) {
   var cellCreator = isAlumni ? makeHTMLAlumCell : makeHTMLCell;
   var result = "<table class=\"table\">";
@@ -55,17 +55,7 @@ var makeHTMLTable = function(listOfObjects, isAlumni) {
   return result;
 };
 
-var applyColorBox = function(className) {
-  $('.' + className).colorbox( {
-    rel: className,
-    maxWidth: "900px",
-    preloading: false,
-    closeButton: false,    
-    current: ""
-  });
-};
-
-// Takes in a person and returns a HTML cell
+// Takes in a person and returns a HTML cell (People page helper)
 var makeHTMLCell = function (person) {
   var result = "<td width=\"33%\">";
   result += "<p class=\"center\">";
@@ -76,7 +66,7 @@ var makeHTMLCell = function (person) {
   return result;
 }
 
-// Takes in a name and returns a HTML cell in the Alumni section
+// Takes in a name and returns a HTML cell in the Alumni section (People page helper)
 var makeHTMLAlumCell = function(alumnus) {
   var result = "<td width=\"33%\">";
   result += "<p class=\"center\">";
@@ -95,7 +85,7 @@ var makeHTMLAlumCell = function(alumnus) {
   return result;
 }
 
-// Takes in a person and returns a HTML snippet
+// Takes in a person and returns a HTML snippet (People page helper)
 var makeHTMLPage = function(person) {
   var result = '<div class="container webpage" id="' + person.firstName + "_" + person.lastName + '">';
   result += '<div class="page-header">';
@@ -127,8 +117,11 @@ var makeHTMLPage = function(person) {
   return result;
 }
 
+// Initialize dictionary for processing of People page
+var dictionaryOfPeople = {};
+
 // Note: any person with an occupation that is not listed below will have a user page generated
-// but may or may not be listed on the People page
+// but may or may not be listed on the People page (People page generator)
 var processPeoplePage = function() {
   var listOfGradStudents = [],
       listOfScientists = [],
@@ -174,6 +167,7 @@ var processPeoplePage = function() {
 
 };
 
+// User page generator
 var loadHTMLPage = function(hashtext) {
   var person = dictionaryOfPeople[hashtext];
   $(".navbar-default").after(makeHTMLPage(person));
@@ -187,6 +181,7 @@ var loadHTMLPage = function(hashtext) {
     });
 };
 
+// Processes the active page
 var processActivePage = function(hashtext) {
   $(".webpage").hide();
   $(".nav.navbar-nav li").removeClass('active');
@@ -204,55 +199,35 @@ var processActivePage = function(hashtext) {
 
   $("#" + hashtext).fadeIn();
   $("#nav" + hashtext).addClass('active');
-
-
-  if (hashtext == "home" || hashtext == "interests") {
-    $.each(sliders, function(i, slider) { 
-        slider.reloadSlider(sliderConfig);
-    });
-  }
 }
 
-// var processActivePage = function(hashtext) {
-//   $("#home, #bio, #interests, #ourgroup, #publications, #meetings").hide();
-// };
-
-var mainClosure = function() {
-  var count = 0;
-  var numOfSliders = $('.bxslider').length;
-  return function() {
-    count++;
-    if (count == numOfSliders + 1) {
-      setTimeout(processActivePage, 0);
-    }
-  };
-};
-
+// Code that gets executed after the DOM is ready
 $(document).ready(function(){
 
+  // Set up Publications accordion
   $( "#accordion" ).accordion({ heightStyle: "content", collapsible: true });
 
+  // Set up People page
   processPeoplePage();
 
+  // Respond to changes in the URL hash
   $(window).hashchange( function() {
     processActivePage();
   } );
 
-  var conditionalProcessActivePage = mainClosure();
-
-  picasaConfig["onAlbumsEnd"] = conditionalProcessActivePage;
+  // Set up support for Picasa Web Albums
+  picasaConfig["onAlbumsEnd"] = function() {
+    setTimeout(processActivePage, 0);
+  };
   $("#albums").pwi(picasaConfig);
 
-  // Assume that there is at least one slideshow in the entire website
-  // $('.bxslider').each(function(i, slider) {
-  //   sliders[i] = $(slider).bxSlider({ onSliderLoad: conditionalProcessActivePage });
-  // });
-
+  // Set up the carousels
   $(".owl-carousel").owlCarousel({
     items : 3,
     lazyLoad : true
   });
 
+  // Set up the Colorboxes associated with the carousels' images
   $('.group1').colorbox( {
     rel: 'group1',
     maxWidth: "900px",
@@ -263,6 +238,6 @@ $(document).ready(function(){
 
   applyColorBox('group1');
   applyColorBox('group2');
-  applyColorBox('group3');  
+  applyColorBox('group3');
 
 });
