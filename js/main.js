@@ -244,8 +244,13 @@ $(document).ready(function(){
   $("#albums").pwi(picasaConfig);
 
   // Assume that there is at least one slideshow in the entire website
-  $('.bxslider').each(function(i, slider) {
-    sliders[i] = $(slider).bxSlider({ onSliderLoad: conditionalProcessActivePage });
+  // $('.bxslider').each(function(i, slider) {
+  //   sliders[i] = $(slider).bxSlider({ onSliderLoad: conditionalProcessActivePage });
+  // });
+
+  $(".owl-carousel").owlCarousel({
+    items : 3,
+    lazyLoad : true
   });
 
   $('.group1').colorbox( {
