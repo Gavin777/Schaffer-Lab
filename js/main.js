@@ -29,7 +29,7 @@ var applyColorBox = function(className) {
     rel: className,
     maxWidth: "900px",
     preloading: false,
-    closeButton: false,    
+    closeButton: false,
     current: ""
   });
 };
@@ -112,7 +112,7 @@ var makeHTMLPage = function(person) {
             : "";
   result += (person["Project description"])
             ? "<br /><br /><strong>Project Description: </strong><br />" + person["Project description"]
-            : "";                    
+            : "";
   result += "</div>";
   return result;
 }
@@ -127,9 +127,10 @@ var processPeoplePage = function() {
       listOfScientists = [],
       listOfPostdocs = [],
       listOfScholars = [],
+      listOfJuniorSpecialists = [],
       listOfUndergraduates = [];
 
-  for (var i = 0, len = listOfPeople.length, personOfInterest; i < len; i++) {   
+  for (var i = 0, len = listOfPeople.length, personOfInterest; i < len; i++) {
     personOfInterest = listOfPeople[i];
     dictionaryOfPeople[personOfInterest.firstName + "_" + personOfInterest.lastName] = personOfInterest;
     if (personOfInterest.Occupation == "Graduate Student") {
@@ -140,6 +141,8 @@ var processPeoplePage = function() {
       listOfPostdocs.push(personOfInterest);
     } else if (personOfInterest.Occupation == "Visiting Scholar") {
       listOfScholars.push(personOfInterest);
+    } else if (personOfInterest.Occupation == "Junior Specialist") {
+      listOfJuniorSpecialists.push(personOfInterest);
     } else if (personOfInterest.Occupation == "Undergraduate") {
       listOfUndergraduates.push(personOfInterest);
     }
@@ -158,8 +161,11 @@ var processPeoplePage = function() {
   htmlToAdd = makeHTMLTable(listOfScholars);
   $("#scholars").append(htmlToAdd);
 
+  htmlToAdd = makeHTMLTable(listOfJuniorSpecialists);
+  $("#juniorspecialists").append(htmlToAdd);
+
   htmlToAdd = makeHTMLTable(listOfUndergraduates);
-  $("#undergrads").append(htmlToAdd);          
+  $("#undergrads").append(htmlToAdd);
 
   htmlToAdd = makeHTMLTable(listOfAlumni, true);
   $("#alumni").append(htmlToAdd);
@@ -232,7 +238,7 @@ $(document).ready(function(){
     rel: 'group1',
     maxWidth: "900px",
     preloading: false,
-    closeButton: false,    
+    closeButton: false,
     current: ""
   });
 
